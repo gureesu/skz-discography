@@ -88,7 +88,7 @@ a {
     position: relative;
     height: 34.9vw;
     grid-area: ba;
-    background: url(https://media.githubusercontent.com/media/gureesu/skz-discography/master/multimedia/cover/orange2.jpg) no-repeat top/cover;
+    background: url(/skz-discography/master/multimedia/cover/orange2.jpg) no-repeat top/cover;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.45);
     z-index: -1;
 }
