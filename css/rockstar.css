@@ -88,7 +88,7 @@ a {
     position: relative;
     height: 36.6vw;
     grid-area: ba;
-    background: url(/skz-discography/master/multimedia/cover/pink.jpg) no-repeat top/cover;
+    background: url(/skz-discography/multimedia/cover/pink.jpg) no-repeat top/cover;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.45);
     z-index: -1;
 }
