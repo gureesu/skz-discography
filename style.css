@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+    --primary-100: rgb(219, 162, 88);
+    --primary-200: rgb(223, 171, 105);
+    --primary-300: rgb(255, 246, 232);
+    --primary-400: rgb(255, 202, 133);
+    --secondary-100: rgb(19, 19, 19);
+    --secondary-200: rgb(236, 175, 95);
+    --secondary-300: rgb(201, 145, 73);
+    --secondary-400: rgb(11, 12, 53);
+    --secondary-500: rgb(255, 249, 241);
+    --secondary-600: rgb(248, 206, 152);
+    --secondary-700: rgb(230, 178, 83);
+    --light-100: rgb(255, 255, 255);
+    --light-200: rgb(238,238,238);
+    --light-300: rgb(233, 233, 233);
+    --light-400: rgba(250, 250, 250, 0.945);
+    --hover-100: rgba(228, 152, 53, 0.75);
+    --hover-200: rgba(199, 149, 55, 0.6);
+    --hover-300: rgba(248, 168, 63, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 150px;
+    gap: 40px; /* Adjust the gap between items as needed */
+    padding: 36px; /* Optional: Add padding around the container */
+}
+
+.album-item {
+    background-color: #f0f0f0; /* Optional: Add background color */
+    text-align: center; /* Optional: Center the text */
+    border-radius: 8px; /* Optional: Add border radius */
+    height: 350px;
+    width: 350px;
+}
+
+img {
+    height: 100%; /* Optional: Make the image fill the container */
+    width: 100%; /* Optional: Make the image responsive */
+    border-radius: 18px; /* Optional: Add border radius */
+}
+
+
+/* footer */
+
+footer {
+    grid-area: fo;
+    height: fit-content;
+    background-color: rgb(10, 10, 10);
+    color: var(--light-200);
+    text-align: center;
+    margin-bottom: -36px;
+}
+
+.links {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+.links i {
+    font-size: 1.75vw;
+    color: white;
+    font-style: normal;
+    margin: 0.6vw;
+    transition: 0.2s ease-in-out;
+}
+
+.links i:hover {
+    filter: brightness(0.6);
+}
+
+.links img {
+    height: 1.75vw;
+    width: auto;
+    margin-bottom: -0.25vw;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    filter: brightness(0) invert(1);
+    transition: 0.2s ease-in-out;
+}
+
+.links img:hover {
+    filter: brightness(0.4) invert(0.7);
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.4vw;
+    word-spacing: 0.2vw;
+    font-weight: 800;
+    line-height: 1.85vw;
+}
+
+.copyright {
+    margin: 1vw 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 1.5vw;
+}
+
+.copyright p {
+    color: white;
+    font-size: 0.9vw;
+}
+
+.copyright span {
+    color: rgb(0,155,230);
+    font-size: 0.9vw;
+}
+
