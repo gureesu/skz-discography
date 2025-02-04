@@ -437,3 +437,41 @@ images.forEach((image, index) => {
         }
     });
 });
+
+
+
+//redirecting pages
+
+// Get the current URL path
+const path = window.location.pathname;
+
+// Define a mapping of clean URLs to actual file locations
+const mapping = {
+    "/rockstar": "/html/rockstar.html",
+    "/5-Star": "/html/5-Star.html",
+    "/The-Sound": "/html/The Sound.html",
+    "/SKZ-Replay": "/html/SKZ-Replay.html",
+    "/Maxident": "/html/Maxident.html",
+    "/CIRCUS": "/html/CIRCUS.html",
+    "/ODDINARY": "/html/ODDINARY.html",
+    "/ChristmasEveL": "/html/Christmas EveL.html",
+    "/NOEASY": "/html/NOEASY.html",
+    "/ALL-IN": "/html/ALL IN.html",
+    "/IN-LIFE": "/html/IN LIFE.html",
+    "/GO-LIVE": "/html/GO LIVE.html",
+    "/LEVANTER": "/html/Clé - LEVANTER.html",
+    "/YellowWood": "/html/Clé 2 - Yellow Wood.html",
+    "/MIROH": "/html/Clé 1 - MIROH.html",
+    "/IamYOU": "/html/I am YOU.html",
+    "/IamWHO": "/html/I am WHO.html",
+    "/IamNOT": "/html/I am NOT.html",
+    "/Mixtape": "/html/Mixtape.html",
+
+
+};
+
+// Check if the path matches a known clean URL
+if (mapping[path]) {
+    // Redirect to the corresponding .html file
+    window.location.replace(mapping[path]);
+}
