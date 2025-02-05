@@ -48,16 +48,25 @@ a {
 }
 
 .album-item {
-    background-color: #f0f0f0; /* Optional: Add background color */
+    display: flex;
+    flex-direction: column;
     text-align: center; /* Optional: Center the text */
     border-radius: 8px; /* Optional: Add border radius */
-    height: 350px;
+    height: 400px;
     width: 350px;
+    
+}
+
+.album-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
 }
 
 img {
-    height: 100%; /* Optional: Make the image fill the container */
-    width: 100%; /* Optional: Make the image responsive */
+    height: 350px; /* Optional: Make the image fill the container */
+    width: 350px; /* Optional: Make the image responsive */
     border-radius: 18px; /* Optional: Add border radius */
 }
 
