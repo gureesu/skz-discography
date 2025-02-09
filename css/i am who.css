@@ -88,7 +88,7 @@ a {
     position: relative;
     height: 37.4vw;
     grid-area: ba;
-    background: url(/skz-discography/multimedia/cover/yellow5.jpg) no-repeat center/cover;
+    background: url(../multimedia/cover/yellow5.webp) no-repeat center/cover;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.45);
     z-index: -1;
 }

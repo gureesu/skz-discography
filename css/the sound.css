@@ -88,7 +88,7 @@ a {
     position: relative;
     height: 37.4vw;
     grid-area: ba;
-    background: url(/skz-discography/multimedia/cover/blue6.jpg) no-repeat bottom/cover;
+    background: url(../multimedia/cover/blue6.webp) no-repeat bottom/cover;
     box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.45);
     z-index: -1;
 }
