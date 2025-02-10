@@ -1,0 +1,27 @@
+{
+    "tracks": [
+      {
+        "track_number": 1,
+        "title": "",
+        "audio_src": ".mp3",
+        "lyrics": {
+          "rom": "",
+
+          "kor": "",
+
+          "eng": ""
+        },
+        "composer": [
+          "Bang Chan (3RACHA)",
+          "Chang Bin (3RACHA)",
+          "Han (3RACHA)",
+          "DallasK"
+        ],
+        "producer": [
+          "DallasK",
+          "Bang Chan (3RACHA)"
+        ],
+        "source": "Republic Records - Stray Kids"
+      }, 
+    ]
+}
